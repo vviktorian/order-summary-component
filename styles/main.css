@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 841px;
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #e0e8ff;
+}
+
+.mainBox {
+  border-radius: 20px;
+  height: 646px;
+  width: 417px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.mainBox .heroImage img {
+  display: block;
+  width: 100%;
+}
+
+.mainBox .textSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 40px 40px 20px 40px;
+}
+
+.mainBox .textSection .title {
+  font-size: 19.5pt;
+  font-weight: bolder;
+  margin-bottom: 17px;
+  color: #1f2f56;
+}
+
+.mainBox .textSection .description {
+  font-size: 15.5px;
+  line-height: 1.6;
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #7280a7;
+}
+
+.mainBox .summarySection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 327px;
+  margin: auto;
+  background-color: #f5f7ff;
+  height: 88px;
+  border-radius: 5px;
+}
+
+.mainBox .summarySection .icon img {
+  display: block;
+  height: 44px;
+}
+
+.mainBox .summarySection .planSpace {
+  margin-left: 17px;
+  margin-right: 86px;
+}
+
+.mainBox .summarySection .planSpace .planTitle {
+  font-weight: bold;
+  font-size: 15px;
+  color: #1f2f56;
+}
+
+.mainBox .summarySection .planSpace .planCost {
+  line-height: 1.5;
+  color: #7280a7;
+}
+
+.mainBox .summarySection .changeButton {
+  font-size: 13px;
+  color: #3829e0;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+  -webkit-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+}
+
+.mainBox .summarySection .changeButton:hover {
+  color: #7280a7;
+  text-decoration: none;
+}
+
+.mainBox .buttonSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainBox .buttonSection .proceedButton {
+  width: 327px;
+  background-color: #3829e0;
+  color: #f5f7ff;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 14px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+}
+
+.mainBox .buttonSection .proceedButton:hover {
+  background-color: #7280a7;
+}
+
+.mainBox .buttonSection .cancelButton {
+  font-size: 14px;
+  font-weight: bold;
+  color: #7280a7;
+  cursor: pointer;
+  -webkit-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+}
+
+.mainBox .buttonSection .cancelButton:hover {
+  color: #1f2f56;
+}
+/*# sourceMappingURL=main.css.map */
