@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-[Solution URL]()
+[Solution URL](https://www.frontendmentor.io/solutions/order-summary-card-using-scss-and-flexbox-wctOgiQ2N)
 
 [Live Site URL](https://github.com/vviktorian/order-summary-component)
 
